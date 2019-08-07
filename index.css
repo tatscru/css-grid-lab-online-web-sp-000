@@ -7,6 +7,8 @@ body {
 .grid-container {
   height: 100vh;
   width: 100vw;
+  display: grid;
+  grid-template:  1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
   /* your properties here */
 }
 
@@ -15,4 +17,10 @@ body {
   border: 1px solid black;
 }
 
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
+}
 /* add the .bigItem class */
