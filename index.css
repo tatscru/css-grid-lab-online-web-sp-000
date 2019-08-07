@@ -18,6 +18,7 @@ body {
 }
 
 .bigItem {
-  grid-area: 
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
 }
 /* add the .bigItem class */
